@@ -1,0 +1,42 @@
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 80px;
+    top: 205px;
+}
+
+.steps-container .steps-block {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.stage {
+    display: flex;
+    flex-direction: row;
+    width: 16px;
+    height: 16px;
+}
+
+.stage-label {
+    color: #817CA5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.active {
+    background-color: #5845DD;
+}
+
+.non-active{
+    background-color: #C9C5E8;
+}
+.disabled {
+    background-color: #87839F;
+}
